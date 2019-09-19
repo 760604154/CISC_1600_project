@@ -1,3 +1,8 @@
+.container-1{
+  wideth:80%;
+  margin:auto;
+}
+
 .box-1{
   background-color:white;
   color:black;
@@ -40,7 +45,7 @@
 .weblink li{
   padding-bottom:8px;
   border-bottom:dotted 1px #333;
-  list-style-image: url(/img/'arrow.png');
+  list-style-image: url('../img/arrow.png');
 }
 
 a{
