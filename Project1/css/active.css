@@ -1,3 +1,9 @@
+.center_color{
+  background-image: url('../img/ranbow_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container-1{
   wideth:80%;
   margin:auto;
@@ -13,6 +19,9 @@
   border-bottom: 10px black solid;
   padding 20px;
   margin: 20px;
+  background-image: url('../img/blue_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box-1 h1{
@@ -62,7 +71,7 @@ a:active{
 }
 
 a:visited{
-  color:pink;
+  color:brown;
 }
 
 .container-1{
