@@ -6,7 +6,7 @@
 
 .container-1{
   width:80%
-  margin:auto;
+  margin: auto;
 }
 
 .box-1{
@@ -22,48 +22,6 @@
   background-image: url('../img/blue_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-<<<<<<< HEAD
-=======
-.box-left{
-  background-color: white;
-  border-top: 5px green solid;
-  border-left: 5px green solid;
-  border-right: 5px green solid;
-  border-bottom: 5px green solid;
-  position:absolute;
-  width: 600px;
-  height: 400px;
-}
-
-.box-right{
-  background-color: white;
-  border-top: 5px green solid;
-  border-left: 5px green solid;
-  border-right: 5px green solid;
-  border-bottom: 5px green solid;
-  position:absolute;
-  right: 5px;
-  width: 600px;
-  height: 400px;
-}
-
-
-.section-left{
-  font-style: Bold;
-  color: red;
-  font-family: "Brush Script MT";
-  font-size: 40px;
-}
-
-.section-right{
-  font-style: Bold;
-  color: red;
-  font-family: "Brush Script MT";
-  font-size: 40px;
-  position: absolute;
-  right:385px;
 }
 
 .box-1 h1{
@@ -160,9 +118,10 @@ a{
   border-left: 5px green solid;
   border-right: 5px green solid;
   border-bottom: 5px green solid;
-  position:absolute;
+  box-sizing: border-box;
   width: 400px;
   height: 400px;
+  float:left;
 }
 
 .box-right{
@@ -171,6 +130,7 @@ a{
   border-left: 5px green solid;
   border-right: 5px green solid;
   border-bottom: 5px green solid;
+  box-sizing: border-box;
   position:absolute;
   right: 400px;
   width: 400px;
@@ -191,4 +151,8 @@ a{
   font-size: 40px;
   position: absolute;
   right:385px;
+}
+
+.clear {
+  clear:both;
 }
