@@ -23,7 +23,6 @@
   background-size: cover;
 }
 
-//aboutme
 .box-left{
   background-color: white;
   border-top: 5px green solid;
@@ -47,7 +46,7 @@
   height: 400px;
 }
 
-//aboutme
+
 .section-left{
   font-style: Bold;
   color: red;
@@ -75,11 +74,14 @@
 }
 
 .weblink {
-  border: 1px #ccc solid;
+  border: 5px black solid;
   padding:10px;
   border-radius:15;
-  margin:auto;
-  width:80%;
+  border-style: double;
+  margin-left: 170px;
+  margin-top: 100px;
+  width: 400px;
+  height: 250px;
 }
 
 .weblink h2{
@@ -95,7 +97,6 @@
 .weblink li{
   padding-bottom:8px;
   border-bottom:dotted 1px #333;
-  list-style-image: url('../img/arrow.png');
 }
 
 a{
@@ -112,11 +113,7 @@ a:active{
 }
 
 a:visited{
-<<<<<<< HEAD
   color:brown;
-=======
-  color:blue;
->>>>>>> e450006feb2044a16d0f3bb7fffa917c265936dc
 }
 
 .container-1{
@@ -126,4 +123,4 @@ a:visited{
 
 
 
-//================================================//
+/*================================================*/
