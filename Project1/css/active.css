@@ -97,7 +97,6 @@
 .weblink li{
   padding-bottom:8px;
   padding-top: 8px;
-  border-bottom:dotted 1px #333;
 }
 
 a{
@@ -141,7 +140,7 @@ a{
 
 .box-right table, tr, td {
   border:1px green solid;
-  font-size:17.2px; 
+  font-size:17.2px;
 }
 
 .section-left{
@@ -158,6 +157,10 @@ a{
   font-size: 40px;
   position: absolute;
   right:385px;
+}
+
+hr{
+  border: 1px solid #686868;
 }
 
 .clear {
