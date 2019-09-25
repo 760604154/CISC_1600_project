@@ -112,35 +112,34 @@ a{
 /*================================================*/
 /* Haolin */
 .box-left{
-  background-color: white;
-  border-top: 5px green solid;
-  border-left: 5px green solid;
-  border-right: 5px green solid;
-  border-bottom: 5px green solid;
-  box-sizing: border-box;
+  border: 5px gray solid;
+  padding:10px;
+  border-radius:15;
+  border-style: double;
+  margin-left: 5px;
   width: 400px;
   height: 400px;
-  float:left;
-  position:relative;
+  box-shadow: 5px 5px;
+  background: url('../img/paper_bg.jpg');
+  float: left;
 }
 
 .box-right{
-  background-color: white;
-  border-top: 5px green solid;
-  border-left: 5px green solid;
-  border-right: 5px green solid;
-  border-bottom: 5px green solid;
-  box-sizing: border-box;
-  position:relative;
-  float:right;
-  right: 250px;
+  border: 5px gray solid;
+  padding:10px;
+  border-radius:15;
+  border-style: double;
+  margin-right: 350px;
   width: 400px;
   height: 400px;
+  box-shadow: 5px 5px;
+  background: url('../img/paper_bg.jpg');
+  float: right;
 }
 
 .box-right table, tr, td {
-  border:1px green solid;
-  font-size:17.2px;
+  border:2px gray solid;
+  font-size:15px;
 }
 
 .section-left{
@@ -155,8 +154,31 @@ a{
   color: red;
   font-family: "Brush Script MT";
   font-size: 40px;
-  position: absolute;
-  right:385px;
+  position: relative;
+  float:right;
+  margin-right: 350px;
+}
+
+.aboutmebutton {
+  background-color: #4CAF50;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 520px;
+  margin-top: 100px;
+}
+
+.wordfont{
+  font-family: "Comic Sans MS";
+  font-size:17px;
+}
+
+.firstletter{
+  font-size: 500%;
 }
 
 hr{
