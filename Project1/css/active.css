@@ -130,29 +130,16 @@ a{
   padding:10px;
   border-radius:15;
   border-style: double;
-  margin-left: 5px;
+  margin-left: 200px;
   width: 400px;
   height: 400px;
   box-shadow: 5px 5px;
   background: url('../img/paper_bg.jpg');
   float: left;
+  display:inline-block;
 }
 
-.box-right{
-  border: 5px gray solid;
-  padding:10px;
-  border-radius:15;
-  border-style: double;
-  margin-right: 475px;
-  width: 400px;
-  height: 400px;
-  box-shadow: 5px 5px;
-  background: url('../img/paper_bg.jpg');
-  float: right;
-  position:relative;
-}
-
-.box-right table, tr, td {
+.box-left table, tr, td {
   border:2px gray solid;
   font-size:15px;
 }
@@ -162,18 +149,8 @@ a{
   color: red;
   font-family: "Brush Script MT";
   font-size: 40px;
+  margin-left: 200px;
 }
-
-.section-right{
-  font-style: Bold;
-  color: red;
-  font-family: "Brush Script MT";
-  font-size: 40px;
-  position: relative;
-  float:right;
-  margin-right: 475px;
-}
-
 .aboutmebutton {
   background-color: #4CAF50;
   color: black;
@@ -191,7 +168,7 @@ a{
 .imgresize {
   position:relative;
   margin-top:30px;
-  margin-left:100px;
+  margin-left:125px;
 }
 
 .wordfont{
