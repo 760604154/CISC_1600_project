@@ -188,22 +188,10 @@ a{
   margin-bottom: 50px;
 }
 
-.imgresize1 {
-  margin-top: -250px;
-  margin-left: 1100px;
+.imgresize {
   position:relative;
-}
-
-.imgresize2 {
-  top: -500px;
-  margin-left: 1200px;
-  position:relative;
-}
-
-.imgresize3 {
-  top: -450px;
-  margin-left: 1150px;
-  position:relative;
+  margin-top:30px;
+  margin-left:50px;
 }
 
 .wordfont{
