@@ -7,11 +7,21 @@
 
 .line1 {
   display: block;
-  position: absolute;
-  border-top: 2px solid #000;
+  border-top: 2px solid red;
   left: 0px;
   width: 100%;
   margin: 0;
+}
+
+.line2 {
+  color: green solid;
+  width: 50%;
+  height: 2px;
+}
+
+.header-1{
+  width:80%;
+  margin:auto;
 }
 
 .Header-1{
@@ -107,14 +117,13 @@
   padding-top: 8px;
 }
 
-a{
-  text-decoration: none;
+links1{
   color:blue;
 }
 
-.container-1{
-  width:80%;
-  margin:auto;
+links1:hover {
+  text-decoration: underline;
+  font-size:110%;
 }
 
 /*================================================*/
