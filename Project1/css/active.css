@@ -209,13 +209,9 @@
 }
 */
 
- h2,h3,h4,h5,h6 {
+ h1,h2,h3,h4,h5,h6 {
   font-family: "Georgia";
-<<<<<<< HEAD
   color: #3a34eb;
-=======
-  color: #ff0000;
->>>>>>> f7dda3df947897de058c7977bc617f99c82d7156
   font-style: Bold;
   font-size: 30px;
 }
