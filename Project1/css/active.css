@@ -1,3 +1,4 @@
+/*Zejun Ren*/
 .background_color{
   background-image: url('../img/ranbow_bg.jpg');
   background-repeat: no-repeat;
@@ -118,6 +119,12 @@ a{
 
 /*================================================*/
 /* Haolin */
+.background_color1{
+  background-image: url('../img/ranbow_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gray;
+}
 .box-left{
   border: 5px gray solid;
   padding:10px;
