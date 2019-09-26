@@ -130,7 +130,7 @@ a{
   padding:10px;
   border-radius:15;
   border-style: double;
-  margin-left: 200px;
+  margin-left: 100px;
   width: 400px;
   height: 400px;
   box-shadow: 5px 5px;
@@ -149,7 +149,14 @@ a{
   color: red;
   font-family: "Brush Script MT";
   font-size: 40px;
-  margin-left: 200px;
+  margin-left: 100px;
+}
+.section-left1 {
+  font-style: Bold;
+  color: red;
+  font-family: "Brush Script MT";
+  font-size: 40px;
+  margin-left: 160px;
 }
 .aboutmebutton {
   background-color: #4CAF50;
@@ -167,15 +174,30 @@ a{
 
 .imgresize {
   position:relative;
-  margin-top:30px;
-  margin-left:125px;
+  margin-top:100px;
+  margin-bottom:100px;
+  border-image: 30% round;
 }
 
-.wordfont{
+.rotate1 {
+  transform: rotate(30grad);
+  margin-left:50px;
+}
+
+.rotate2 {
+  transform: rotate(-40grad);
+  margin-left:50px;
+}
+
+.rotate3{
+  transform: rotate(60grad);
+  margin-left:50px;
+}
+
+p, table, li {
   font-family: "Comic Sans MS";
   font-size:17px;
 }
-
 .firstletter{
   font-size: 500%;
 }
