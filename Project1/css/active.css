@@ -1,7 +1,16 @@
-.center_color{
+.background_color{
   background-image: url('../img/ranbow_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.line1 {
+  display: block;
+  position: absolute;
+  border-top: 2px solid #000;
+  left: 0px;
+  width: 100%;
+  margin: 0;
 }
 
 .container-1{
@@ -19,16 +28,14 @@
   border-style: groove;
   padding 20px;
   margin: 20px;
-  background-image: url('../img/blue_bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .box-1 h1{
   font-family: Tahoma;
   font-weight: 800;
   font-style: italic;
-  text-decoration: underline;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   letter-spacing: 0.2em;
   word-spacing:0.8em;
 }
