@@ -154,17 +154,9 @@ links1:hover {
 }
 
 .section-left{
-  font-style: Bold;
-  color: red;
-  font-family: "Brush Script MT";
-  font-size: 40px;
   margin-left: 100px;
 }
 .section-left1 {
-  font-style: Bold;
-  color: red;
-  font-family: "Brush Script MT";
-  font-size: 40px;
   margin-left: 160px;
 }
 .aboutmebutton {
@@ -179,6 +171,10 @@ links1:hover {
   position:relative;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.aboutmebutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .imgresize {
@@ -214,10 +210,18 @@ links1:hover {
 }
 */
 
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Georgia";
+  color: green;
+  font-style: Bold;
+  font-size: 30px;
+}
+
 p, table, li {
   font-family: "Comic Sans MS";
   font-size:17px;
 }
+
 .firstletter{
   font-size: 500%;
 }
