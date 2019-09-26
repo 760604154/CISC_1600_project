@@ -227,9 +227,9 @@
 }
 */
 
- h2,h3,h4,h5,h6 {
+ h1,h2,h3,h4,h5,h6 {
   font-family: "Georgia";
-  color: #ff0000;
+  color: #3a34eb;
   font-style: Bold;
   font-size: 30px;
 }
