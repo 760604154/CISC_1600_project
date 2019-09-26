@@ -149,6 +149,7 @@ a{
   box-shadow: 5px 5px;
   background: url('../img/paper_bg.jpg');
   float: right;
+  position:relative;
 }
 
 .box-right table, tr, td {
@@ -190,17 +191,20 @@ a{
 .imgresize1 {
   float:right;
   margin-top: -250px;
+  position:relative;
 }
 
 .imgresize2 {
   float:right;
   margin-top: -475px;
   margin-right:50px;
+  position:relative;
 }
 
 .imgresize3 {
   float:right;
   margin-top: -300px;
+  position:relative;
 }
 
 .wordfont{
